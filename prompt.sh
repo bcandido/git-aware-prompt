@@ -32,7 +32,11 @@ set_ps1() {
 	export PS1="$ps1"
 }
 
-PROMPT_COMMAND="find_git_branch; find_git_dirty; set_ps1; $PROMPT_COMMAND"
+if [[ "$DEFAULT_PROMPT" == "false" ]]; then
+	PROMPT_COMMAND="find_git_branch; find_git_dirty; set_ps1; $PROMPT_COMMAND"
+else
+	PROMPT_COMMAND="find_git_branch; find_git_dirty; $PROMPT_COMMAND"
+fi
 
 # Default Git enabled prompt with dirty state
 # export PS1="\u@\h \w \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\$ "
