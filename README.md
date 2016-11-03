@@ -21,7 +21,7 @@ If you `cd` to a Git working directory, you will see the current Git branch
 name displayed in your terminal prompt. When you're not in a Git working
 directory, your prompt works like normal.
 
-![Git Branch in Prompt](https://raw.github.com/jimeh/git-aware-prompt/master/preview.png)
+![Git Branch in Prompt](https://raw.github.com/bcandido/git-aware-prompt/master/preview.png)
 
 
 ## Installation
@@ -31,7 +31,7 @@ Clone the project to a `.bash` folder in your home directory:
 ```bash
 mkdir ~/.bash
 cd ~/.bash
-git clone git://github.com/jimeh/git-aware-prompt.git
+git clone git://github.com/bcandido/git-aware-prompt.git
 ```
 
 Edit your `~/.bash_profile` or `~/.profile` or `~/.bashrc` (for Ubuntu) and add the following to the top:
@@ -48,7 +48,7 @@ Once installed, there will be new `$git_branch` and `$git_dirty` variables
 available to use in the `PS1` environment variable, along with a number of
 color helper variables which you can see a list of in [colors.sh][].
 
-[colors.sh]: https://github.com/jimeh/git-aware-prompt/blob/master/colors.sh
+[colors.sh]: https://github.com/bcandido/git-aware-prompt/blob/master/colors.sh
 
 If you want to know more about how to customize your prompt, I recommend
 this article: [How to: Change / Setup bash custom prompt (PS1)][how-to]
@@ -110,7 +110,7 @@ git pull
 ## Usage Tips
 
 To view other user's tips, please check the
-[Usage Tips](https://github.com/jimeh/git-aware-prompt/wiki/Usage-Tips) wiki
+[Usage Tips](https://github.com/bcandido/git-aware-prompt/wiki/Usage-Tips) wiki
 page. Or if you have tips of your own, feel free to add them :)
 
 
